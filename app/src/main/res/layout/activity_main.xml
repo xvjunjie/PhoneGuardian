@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.phoneguardian.MainActivity">
+
+    <TextView
+        android:text="功能列表"
+        android:id="@+id/title"
+        style="@style/TitleBar"
+        />
+
+    <GridView
+        android:id="@+id/gv_fuction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:verticalSpacing="15dp"
+        android:numColumns="3"
+       />
+</LinearLayout>
